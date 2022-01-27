@@ -1,0 +1,10 @@
+.identitas{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-size: 15px;
+    color: var(--var-ijomda);
+  }
+  .identitas-list{
+    width: 170px;
+  }

@@ -1,0 +1,47 @@
+.karyawan-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--putih);
+    width: 200px;
+    height: 225px;
+    margin: 2rem;
+    border-radius: 10px;
+    color: var(--item);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    transition: 2s;
+}
+
+.karyawan-img img{
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+    box-sizing: border-box;
+}
+
+.karyawan-desc{
+    padding: 10px;
+}
+
+.karyawan-desc h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.karyawan-desc h3 span{
+    color: var(--ijotua);
+}
+
+.karyawan-desc p{
+    font-size: 16px;
+}
+
+.karyawan-card:hover{
+    background-color: var(--putihijo);
+    transition: 1s;
+}

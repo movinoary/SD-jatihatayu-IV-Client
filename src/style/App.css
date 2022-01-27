@@ -1,0 +1,13 @@
+:root{
+  --item      : #000000;
+  --itemijo   : #191A19;
+  --ijotua    : #1E5128;
+  --ijomuda   : #4E9F3D;
+  --putihijo  : #D8E9A8;
+  --putih     : #ffffff;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}

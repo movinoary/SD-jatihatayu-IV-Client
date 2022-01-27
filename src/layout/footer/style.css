@@ -1,0 +1,153 @@
+.footer-container {
+  background-color: var(--itemijo);
+  color: var(--putihijo);
+  padding: 2% 5% 2% 5% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bawah{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-link-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link-wrapper h2{
+  color: var(--ijomuda);
+  font-size: 40px;
+}
+
+.footer-about{
+  display: flex;
+  flex-direction: row;
+}
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+.footer-link-items i{
+  color: var(--ijomuda);
+  font-size: 25px;
+  margin-right: 10px;
+}
+.footer-link-items p {
+  color: var(--ijomuda);
+  margin-bottom: 16px;
+  font-size: 25px;
+}
+
+.footer-link-items > p,
+.footer-link-items i:hover {
+  color: var(--putihijo);
+}
+
+.footer-link-items a {
+  color: var(--ijomuda);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link-items a:hover {
+  color: var(--putihijo);
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.social-logo {
+  color: var(--putihijo);
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.social-logo span{
+  color: var(--ijomuda);
+  margin-right: 5px; margin-left: 5px;
+}
+
+.website-rights {
+  color: var(--putihijo);
+  font-size: 12px;
+  width: 100%;
+}
+
+.Lokasi{
+  text-align: right;
+  padding-left: 5%;
+}
+.lokasi iframe{
+  height: 400px;
+  width: 800px;
+  border-radius: 20px;
+}
+@media screen and (max-width:1400px){
+  .lokasi iframe{
+    height: 350px;
+    width: 600px;
+  }
+  
+}
+@media screen and (max-width:1150px){
+  .footer-bawah{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:650px){
+  .social-logo{
+    font-size: 1.5rem;
+  }
+  .lokasi iframe{
+    height: 250px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .lokasi iframe{
+    width: 300px;
+  }
+  .website-rights {
+    color: var(--putihijo);
+    font-size: 12px;
+    width: 100px;
+  }
+  .social-media-wrap {
+    width: 300px;
+  }
+  .footer-link-wrapper {
+    width: 300px;
+  }
+  .social-logo {
+    margin-right: 0;
+  }
+}

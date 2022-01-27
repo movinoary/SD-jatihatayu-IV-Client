@@ -1,0 +1,72 @@
+.sec-berita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.judul-berita{
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: var(--itemijo);
+    color: var(--putih);
+    text-align: center;
+    z-index: 2;
+    margin-bottom: -20px;
+    width: 80%;
+}
+.berita-isi{
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+    padding: 3%;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    flex-direction: column;
+}
+.judul-berita h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+.berita-isi img{
+    align-items: center;
+    border-radius: 15px;
+    width: 100%;
+}
+.isi-tgl{
+    font-size: 15px;
+    text-align: right;
+    padding: 10px;
+}
+.isi-par{
+    font-size: 17px;
+    padding: 10px;
+    text-align: justify;
+}
+.isi-sumber{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+.berita-lain{
+    width: 100%;
+}
+@media screen and (max-width: 1000px){
+    .judul-berita h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500pc){
+    .isi-tgl{
+        font-size: 12px;
+    }
+    .isi-par{
+        font-size: 15px;
+    }
+    .isi-sumber{
+        font-size: 12px;
+    }
+}
+

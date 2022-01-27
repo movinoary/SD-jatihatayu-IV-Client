@@ -1,0 +1,27 @@
+.number-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-card span{
+    font-size: 30px;
+    color: var(--ijotua);
+    margin-bottom: 5px;
+}
+
+.number-card h3{
+    font-size: 25px;
+    color: var(--ijomuda);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:760px){
+    .number-card span{
+        font-size: 25px;
+    }
+    .number-card h3{
+        font-size: 20px;
+    }
+}

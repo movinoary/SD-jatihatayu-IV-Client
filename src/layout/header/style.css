@@ -1,0 +1,49 @@
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.603)),url(../../images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(red, green, blue, alpha);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.sub{
+    height: 50vh;
+}
+.header-judul {
+    font-weight: 900;
+    color: var(--ijomuda);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.header-subjudul {
+    color: var(--putihijo);
+    margin-top: 35px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+@media  screen and (max-width:1000px) {
+    .header-judul{
+        font-size: 50px;
+    }
+    .header-subjudul{
+        font-size: 40px;
+    }
+}
+
+@media  screen and (max-width:760px) {
+    .header-judul{
+        text-align: center;
+        font-size: 40px;
+    }
+    .header-subjudul{
+        font-size: 30px;
+    }
+}

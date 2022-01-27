@@ -1,0 +1,100 @@
+.prolengkar{
+    padding: 2%;
+    margin: -70px 10% 10% 10%;
+    background-color: var(--putih);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+}
+
+.prolengkar-atas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.prolengkar-photo img{
+    margin-top: -100px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.prolengkar-sosmed{
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.prolengkar-tengah{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+.prolengkar-profil{
+    margin: 5px;
+}
+.prolengkar-profil h3{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.prolengkar-profil h3 span{
+    color: var(--ijotua);
+}
+.prolengkar-profil h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--ijotua);
+}
+
+.prolengkar-profil h4 span{
+    color: var(--item);
+}
+
+.prolengkar-profil p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.prolengkar-bawah{
+    padding: 30px 10px 20px 10px;
+    border-top: 1px solid var(--ijomuda);
+    text-align: justify;
+    font-size: 17px;
+}
+.prolengkar-desc p{
+    margin-bottom: 10px;
+}
+
+@media  screen and (max-width:600px) {
+    .prolengkar-sosmed{
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .prolengkar-photo img{
+        margin-top: 0px;
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    .prolengkar-profil h3{
+        font-size: 20px;
+    }
+    .prolengkar-profil h4{
+        font-size: 17px;
+    }
+    .prolengkar-profil p{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .prolengkar-desc p{
+        font-size: 15px;
+    }
+}

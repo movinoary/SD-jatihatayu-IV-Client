@@ -1,0 +1,207 @@
+/* ----- Awal Button Normal ----- */
+.button-normal {
+  background-color: var(--putih);
+  border: none;
+  border-bottom: 6px solid var(--ijomuda);
+  border-top: 6px solid var(--ijomuda);
+  color: var(--itemijo);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 46px;
+  letter-spacing: 3px;
+  line-height: 34px;
+  margin: 15px 45px;
+  outline: none;
+  padding: 0 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.button-normal:before,
+.button-normal:after {
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: var(--putih);
+  border-radius: 50%;
+  top: -6px;
+  content: "";
+  height: 46px;
+  position: absolute;
+  width: 46px;
+  border: 6px solid var(--putihijo);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.button-normal:before {
+  right: -23px;
+  border-left-color: var(--ijomuda);
+  border-bottom-color: var(--ijomuda);
+}
+
+.button-normal:after {
+  left: -23px;
+  border-right-color: var(--ijomuda);
+  border-top-color: var(--ijomuda);
+}
+
+.button-normal:hover,
+.button-normal.hover {
+  background-color: var(--putih);
+}
+
+.button-normal:hover:before,
+.button-normal.hover:before,
+.button-normal:hover:after,
+.button-normal.hover:after {
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+/* ----- Akhir Button Normal ----- */
+
+/* ----- Awal Button Sosmed ----- */
+.button-sosmed {
+  display: inline-flex;
+}
+
+.button-sosmed .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.button-sosmed .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.button-sosmed .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.button-sosmed .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.button-sosmed .icon:hover span,
+.button-sosmed .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button-sosmed .facebook:hover,
+.button-sosmed .facebook:hover .tooltip,
+.button-sosmed .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.button-sosmed .instagram:hover,
+.button-sosmed .instagram:hover .tooltip,
+.button-sosmed .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.button-sosmed .whatsapp:hover,
+.button-sosmed .whatsapp:hover .tooltip,
+.button-sosmed .whatsapp:hover .tooltip::before {
+  background-color: #5ed11c;
+  color: #ffffff;
+}
+
+.button-sosmed .mail:hover,
+.button-sosmed .mail:hover .tooltip,
+.button-sosmed .mail:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+/* ----- Akhir BUtton Sosmed */
+
+/*------ Awal Button Dashboard ------ */
+.button-keluar{
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 3px;
+  background-color: var(--ijomuda);
+  color: var(--itemijo);
+  border-radius: 10px;
+  transition: 1s;
+  border: 1px solid var(--putihijo);
+  width: 100px;
+}
+
+.button-dash{
+  font-size: 15px;
+  padding: 5px 10px;
+  width: 85px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid var(--putih);
+  transition: 1s;
+  text-transform: uppercase;
+}
+
+.edit{
+  background-color: var(--ijomuda);
+  color: var(--itemijo);
+  text-decoration: none;
+}
+
+.delete{
+  background-color: #e43535;
+}
+
+.edit:hover{
+  transition: 1s;
+  background-color: var(--ijotua);
+  color: var(--putihijo);
+}
+
+.delete:hover{
+  transition: 1s;
+  background-color: #990d0d;
+  color: var(--putihijo);
+}
+
+.button-keluar:hover{
+  transition: 1s;
+  background-color: #e43535;
+  color: var(--putihijo);
+}
+/*------ Akhir Button Dashboard ------ */

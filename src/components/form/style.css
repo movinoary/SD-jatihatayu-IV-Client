@@ -1,0 +1,25 @@
+.func-form{
+    padding: 10px;
+}
+.func-form input{
+  border: none;
+  border-bottom: 1px solid var(--ijomuda);
+  width: 400px;
+  margin: 5px;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: var(--ijomuda);
+  font-size: 17px ;
+}
+.func-form h2{
+    color: var(--ijotua);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:565px){
+    .func-form input{
+        width: 250px;
+    }
+}

@@ -1,0 +1,111 @@
+.card-kegiatan {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  margin: 2rem;
+  font-size: 16px;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: none !important;
+  padding: 30px 40px 0 0;
+}
+
+.card-kegiatan *,
+.card-kegiatan *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.card-kegiatan img {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  vertical-align: top;
+}
+
+.card-kegiatan figcaption {
+  background-color: var(--putih);
+  border-radius: 10px;
+  bottom: 30px;
+  left: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.card-kegiatan h3 {
+  font-size: 16px;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  color: var(--ijotua);
+  left: 100%;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  opacity: 0.8;
+  padding: 6px 40px 0 0;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  white-space: nowrap;
+}
+
+.card-kegiatan a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-kegiatan:hover figcaption,
+.card-kegiatan.hover figcaption {
+  background-color: var(--ijomuda);
+  color: var(--itemijo);
+}
+
+
+@media  screen and (max-width:1400px) {
+  .card-kegiatan{
+    width: 270px;
+    height: 250px;
+  }
+  .card-kegiatan img{
+    width: 235px;
+    height: 235px;
+  }
+}
+
+@media  screen and (max-width:650px) {
+  .card-kegiatan{
+    width: 310px;
+    height: 300px;
+  }
+  .card-kegiatan img{
+    width: 270px;
+    height: 270px;
+  }
+}
+
+@media  screen and (max-width:500px) {
+  .card-kegiatan{
+    margin: 1rem;
+    width: 270px;
+    height: 250px;
+  }
+  .card-kegiatan img{
+    width: 230px;
+    height: 230px;
+  }
+}
