@@ -8,9 +8,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Install NPM
+## Install NPM
 
-## npm i react-router-dom@5.2.0 react-apexcharts aos axios react-icons react-chrono react-player jwt-decode
+### npm i react-router-dom@5.2.0 react-apexcharts aos axios react-icons react-chrono react-player jwt-decode
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
